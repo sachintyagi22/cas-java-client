@@ -24,7 +24,7 @@
 <%
     if (request.getUserPrincipal() != null) {
       AttributePrincipal principal = (AttributePrincipal) request.getUserPrincipal();
-      
+
       /*
       final String password = principal.getPassword();
       if (password != null) {
